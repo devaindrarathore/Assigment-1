@@ -14,3 +14,19 @@ Constraints :
 1 <= M <= 10^6
 
 """
+m=int(input())
+elements_of_list=input()
+lis=[]
+colon=';'
+addition=0
+value=''
+for i in elements_of_list:
+        if i==colon:
+            addition=addition+int(value)
+            value=''
+        else:
+            value=value+i   
+addition=addition+int(value)      
+print(addition)
+            
+            
