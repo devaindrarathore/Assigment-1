@@ -14,3 +14,21 @@ Output Format:
 
 
 """
+m=int(input())
+lis=input()
+colon=';'
+value=','
+for i in lis:
+    if i==colon:
+        value=''
+    else:
+        i=''
+        value=value+i  
+n=input()
+if n in lis: 
+if n = -1:
+    print(lis.index(n))
+    else:
+        print(lis.index(n)-1)
+else:
+    print("Better Luck Next Time")
