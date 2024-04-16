@@ -17,3 +17,18 @@ Welcome
 
 
 """
+m_str = "Welcome to EN2004"
+m_str3 = "Welcome,to,EN2004"
+m_str1 = m_str.replace("EN2004", "welcome")
+m_str2 = m_str1.replace("Welcome", "EN2004")
+print(m_str3,sep=',')
+for string in m_str2:
+    print( string ,end='')
+
+    if string == ' ':  # Check if a space is encountered
+        print()
+        print("to")
+        print("welcome")
+        break
+    
+        
